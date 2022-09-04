@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "npcskingrabber",
+  "version": "${version}",
+  "name": "Npcskingrabber",
+  "description": "Shift + Right click on player entities to grab their skin",
+  "authors": [
+    "kumakuma215"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/npcskingrabber/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "fr.kumakuma215.npcskingrabber.client.NpcgrabberClient"
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "npcskingrabber.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
